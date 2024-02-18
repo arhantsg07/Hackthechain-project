@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Protest+Revolution&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Protest+Revolution&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+body,
+html {
+  height: 100%;
+
+  /* Full height */
+  width: 100vw;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 2px;
+  margin-bottom: 2px;
+  background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.5)),url('fest.png');
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgb(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  height: 74px;
+}
+.head {
+  margin-right: 250px;
+  margin-bottom: 40px;
+  letter-spacing: 13px;
+
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  background: rgb(0, 0, 0, 0.1);
+
+  p {
+    font-family: "Protest Revolution", sans-serif;
+  }
+}
+.nav-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-button {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); /* 0 0 5px rgba(0, 0, 0, 0.3); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 9px;
+}
+
+.home-button img {
+  width: 80%;
+  height: auto;
+}
+.nav-links {
+  list-style-type: none;
+
+  overflow: hidden;
+  display: flex;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.nav-links li {
+  margin-right: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "DM sans", sans-serif;
+
+  color: whitesmoke;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+.nav-links a:hover {
+  text-shadow: 2px 1px 4px azure;
+
+  font-size: 22px;
+  font-weight: bold;
+}
+.main {
+  margin-top: 40px;
+}
+
+.heading {
+  font-weight: 500;
+  text-align: center;
+  color: azure;
+  font-family: "Libre Baskerville", serif;
+  word-spacing: 6px;
+  letter-spacing: 6px;
+  font-size: 15px;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 40px;
+}
+
+form {
+  background-color: azure;
+  width: 494px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 526px;
+  margin-top: 152px;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: rgb(0, 0, 0, 0.9);
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+.heading2 {
+  text-align: center;
+  color: white;
+  margin-top: 160px;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.anim {
+  color: aqua;
+}

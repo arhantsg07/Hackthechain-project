@@ -1,0 +1,300 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Protest+Revolution&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Protest+Revolution&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap'); */
+
+
+@font-face {
+    font-family: ProtestRevolution;
+    src: url(ProtestRevolution-Regular.ttf);
+}
+
+@font-face {
+    font-family: fa;
+    src: url(./JosefinSans-VariableFont_wght.ttf);
+}
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-image: url('The-Weeknd-Fortnite.webp'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  }
+  
+
+
+  body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)); /* Adjust the opacity as needed */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  
+
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-family: ProtestRevolution;
+  font-size: 50px;
+  letter-spacing: 10px;
+  background-image: url(hexagon-frame-neon-led-border-dark-brick-wall-background-night-club-neon-sign-mockup-neon-blue-pink-lamp-wall-233507778.webp);
+
+}
+
+header h1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav__links {
+  list-style-type: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .SearchContainer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+
+  
+  
+    
+    .head {
+       
+        font-weight: bold;
+        text-align: center;
+        color: azure;
+        font-family: 'Libre Baskerville', serif;
+        word-spacing: 6px;
+        letter-spacing: 6px;
+        text-shadow: 2px 2px 5px black;
+        margin-top: 200px;
+    }
+    
+    .head:hover {
+        color:cyan;
+        text-shadow: 2px 2px 6px rgb(233, 233, 248); 
+
+    }
+   
+    
+      
+    input {
+        all: unset;
+        font: 16px system-ui;
+        color: black;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+      }
+      
+    
+    @media (max-width: 600px) {
+        /* Make the input and button elements take 100% of the available width */
+        .form input, .form button {
+          width: 100%;
+        }
+      
+        /* Remove the left and right margins of the form element */
+        .form {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      
+        /* Center the button element */
+        .form button {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      
+    
+    
+
+
+
+footer {
+    margin-top: 134px;
+    height: 100%;
+    
+}
+.footerContainer {
+    
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* for hover effects */
+.socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-weight: 750;
+
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footerBottom p {
+    color: white;
+    position: relative;
+}
+
+.designer {
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+}

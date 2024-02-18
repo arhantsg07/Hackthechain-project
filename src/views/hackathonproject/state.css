@@ -1,0 +1,110 @@
+@import url(https://db.onlinewebfonts.com/c/6bff5f8f85a7385fbdc21a8f724dd8ac?family=Rajasthan+Regular);
+
+body {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(rajs2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1600px;
+}
+.icon img {
+  width: 75px;
+  height: 90px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+.heading {
+   color: #fff;
+  text-align: center;
+  font-family: "Rajasthan Regular";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.products2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: "Rajasthan Regular";
+  word-spacing: 7px;
+  text-shadow: 1px 1px 2px aqua;
+}
+
+.item1 {
+  box-sizing: border-box;
+  width: 300px;
+  margin: 28px;
+  border: 1px solid;
+  border-radius: 7px;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 7px;
+}
+
+.item1 img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 7px;
+  width: 300px;
+}
+.img2 {
+  border-radius: 50px;
+  background-color: black;
+  height: 50px;
+  box-shadow: 3px 4px 4px black;
+}
+
+.btn1 {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: black;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: black;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn2 {
+  background-color: black;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon2 img {
+  width: 100px;
+  height: 140px;
+}
+
+.img2 img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.img2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */

@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("backgorundimage.jpg");
+}
+
+.event h1 {
+  text-align: center;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.img {
+  width: 30%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.img h1 {
+  font-family: "Averia Serif Libre", serif;
+  color: azure;
+  letter-spacing: 6px;
+  margin-top: 530px;
+  font-size: 35px;
+}
+
+.tech2 {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  width: 70%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+}
+.tech {
+  display: flex;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("events-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px;
+  height: 700px;
+  box-shadow: 2px 3px 15px black;
+}
+.item1 {
+  display: flex;
+  margin-top: 10px;
+}
+.list2 {
+  width: 150px;
+  height: 180px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list3 {
+  width: 600px;
+  height: 180px;
+  background-color: aliceblue;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.list3 b {
+  color: red;
+  font-weight: 800;
+}
+.list3 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 8px;
+}
+.list3 a {
+  text-align: start;
+  padding-left: 8px;
+  margin-bottom: 13px;
+}
+
+.heading {
+  text-align: center;
+}
+.item2 {
+  display: flex;
+  margin-top: 20px;
+}
+.item3 {
+  display: flex;
+  margin-top: 20px;
+}
+.cultral {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("cultral2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px;
+  height: 850px;
+  display: flex;
+  box-shadow: 2px 3px 20px white;
+  box-shadow: 2px 3px 15px black;
+}
+.tech5 {
+  color: white;
+  width: 70%;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seminar {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("seminar-conference.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px;
+  height: 850px;
+  display: flex;
+  box-shadow: 2px 3px 15px black;
+}
+
+.mid h1 {
+  text-align: center;
+  font-family: "Foldit", sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  text-shadow: 2px 1px 2px black;
+}
+.last h1 {
+  text-align: center;
+  font-family: "Foldit", sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  text-shadow: 2px 1px 2px black;
+}
+
+.first h1 {
+  text-align: center;
+  font-family: "Foldit", sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  text-shadow: 2px 1px 2px black;
+}
+.list3 h3 {
+  font-family: "Averia Serif Libre", serif;
+  padding-left: 8px;
+}
+.item1:hover .list2 {
+  background-color: black;
+  color: white;
+}
+.item2:hover .list2 {
+  background-color: black;
+  color: white;
+}
+.item3:hover .list2 {
+  background-color: black;
+  color: white;
+}
+
+.list2 {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.list3 b {
+  color: rgb(1, 7, 34);
+}

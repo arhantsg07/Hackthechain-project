@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Protest+Revolution&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Protest+Revolution&family=Quicksand:wght@500&family=Roboto&family=Rubik+Glitch+Pop&family=Source+Code+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: samarkan;
+  src: url(./Samarkan/SAMARN__.TTF);
+}
+body {
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 2px;
+  margin-bottom: 2px;
+  background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url('The-Weeknd-Fortnite.webp');
+
+  /* Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  margin: 0;
+  padding: 0;
+  background-image: url('rajimg.jpg'); /* Replace with your actual image URL */
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.9));
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* color: #fff; */
+  width: 100%;
+  height: 100%;
+}
+
+body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)); /* Adjust the opacity as needed */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+/* nav {
+  background-color: rgb(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  height: 74px;
+}
+.head {
+  margin-right: 250px;
+  margin-bottom: 40px;
+  letter-spacing: 13px;
+
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  background: rgb(0, 0, 0, 0.1);
+
+  p {
+    
+    font-family: "Protest Revolution", sans-serif;
+  }
+}
+.nav-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-button {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); /* 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 9px;
+}
+
+.home-button img {
+  width: 80%;
+  height: auto;
+}
+.nav-links {
+  list-style-type: none;
+
+  overflow: hidden;
+  display: flex;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.nav-links li {
+  margin-right: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+
+  color: whitesmoke;
+  /* font-weight: ; 
+  letter-spacing: 3px;
+}
+.nav-links a:hover {
+  text-shadow: 2px 1px 4px azure;
+
+  font-size: 22px;
+  font-weight: bold;
+} */
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-family: ProtestRevolution;
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  background-image: url(hexagon-frame-neon-led-border-dark-brick-wall-background-night-club-neon-sign-mockup-neon-blue-pink-lamp-wall-233507778.webp);
+
+}
+
+header h1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav__links {
+  list-style-type: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.main {
+  margin-top: 40px;
+}
+
+.heading h1 {
+  font-weight: 500;
+  text-align: center;
+  color: azure;
+  font-family: samarkan;
+  word-spacing: 6px;
+  letter-spacing: 6px;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 40px;
+}
+.heading h2 {
+  font-weight: 500;
+  text-align: center;
+  color: azure;
+  font-family: samarkan;
+  word-spacing: 6px;
+  letter-spacing: 6px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 40px;
+}
+
+
+.heading2 h3 {
+  text-align: center;
+  color: white;
+  margin-top: 160px;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.anim {
+  color: aqua;
+}
+.button{
+  display:flex;
+  justify-content: center;
+ margin-top: 120px;
+ width:100vw;
+ height: 100px;
+
+}
+.btn1{
+  width:290px;
+  height:60px;
+  font-size:23px;
+  backdrop-filter: blur(4px);
+  border-radius: 14px;
+ font-family:'Times New Roman', Times, serif;
+ letter-spacing: 4px;
+ box-shadow: 1px 1px 3px white;
+}
+
+.button .btn1  a {
+  text-decoration: none;
+  color: aqua;
+}
+
+footer {
+  background-size: cover;
+  margin-top: 134px;
+  height: 100%;
+  width: 100%;
+  
+}
+.footerContainer {
+  
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+/* for hover effects */
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+  font-weight: 750;
+
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.footerBottom p {
+  color: white;
+  position: relative;
+}
+
+.designer {
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul {
+      flex-direction: column;
+  }
+
+  .footerNav ul li {
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+
+}
